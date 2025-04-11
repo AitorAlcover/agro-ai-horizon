@@ -122,10 +122,10 @@ const ContactForm = () => {
                   onChange={handleChange}
                   className="w-full bg-dark-bg border border-metallic/30 rounded-md px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-neon-cyan focus:border-transparent"
                 >
-                  <option value="small">Pequeña (< 10 hectáreas)</option>
+                  <option value="small">Pequeña (&lt; 10 hectáreas)</option>
                   <option value="medium">Mediana (10-50 hectáreas)</option>
                   <option value="large">Grande (50-200 hectáreas)</option>
-                  <option value="enterprise">Muy grande (> 200 hectáreas)</option>
+                  <option value="enterprise">Muy grande (&gt; 200 hectáreas)</option>
                 </select>
               </div>
 
